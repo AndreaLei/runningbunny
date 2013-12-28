@@ -1,0 +1,213 @@
+.exampleDiv {
+	height: 600px;
+	width: 1200px;
+	border: 1px solid rgba(0,0,0,0.1);
+	float:right;
+	margin: 20px;
+	text-align:center;
+	position:relative;
+	background: transparent url(bg.png) 100% no-repeat;
+}
+
+
+.bunny {
+	position:absolute;
+	height:75px;
+	width:65px;
+	bottom:0px;
+	background:transparent url(bunny.png) 50% no-repeat;
+	-webkit-animation: yy 6s 5 linear;
+	-moz-animation: yy 2s  linear;
+}
+
+/*.carrot {
+	position:absolute;
+	height: 75px;
+	width: 65px;
+	border-radius: 0px;
+	background: transparent url(carrot.png) 50% no-repeat;
+	-webkit-animation: yy 5s  linear;
+	-moz-animation: yy 2s  linear;
+}
+*/
+
+@-webkit-keyframes yy {
+	0% {
+		left: 0px;
+		bottom:0px;
+		-webkit-animation-timing-function: ease-in;
+	}
+	2% {
+		left:10px;
+		bottom:0px;
+		background:url(jump.png) 50% no-repeat;
+	}
+	4%{
+		left:20px;
+		bottom:0px;
+		background:url(bunny.png) 50% no-repeat;
+	}
+	6%{
+		left:30px;
+		bottom:0px;
+		background:url(jump.png) 50% no-repeat;
+	}
+	8%{
+		left:40px;
+		bottom:0px;
+		background:url(bunny.png) 50% no-repeat;
+	}
+	10%{
+		left:50px;
+		bottom:0px;
+		background:url(jump.png) 50% no-repeat;
+	}
+	12%{
+		left:60px;
+		bottom:0px;
+		background:url(bunny.png) 50% no-repeat;
+	}
+	14%{
+		left:70px;
+		bottom:0px;
+		background:url(jump.png) 50% no-repeat;
+	}
+	16%{
+		left:80px;
+		bottom:0px;
+		background:url(bunny.png) 50% no-repeat;
+	}
+	18%{
+		left:90px;
+		bottom:0px;
+		background:url(jump.png) 50% no-repeat;
+	}
+	20%{
+		left:100px;
+		bottom:0px;
+		background:url(bunny.png) 50% no-repeat;
+	}
+	22%{
+		left:110px;
+		bottom:0px;
+		background:url(jump.png) 50% no-repeat;
+	}
+	24%{
+		left:120px;
+		bottom:0px;
+		background:url(bunny.png) 50% no-repeat;
+	}
+	26%{
+		left:130px;
+		bottom:0px;
+		background:url(jump.png) 50% no-repeat;
+	}
+	28%{
+		left:140px;
+		bottom:0px;
+		background:url(bunny.png) 50% no-repeat;
+	}
+	30%{
+		left:150px;
+		bottom:0px;
+		background:url(jump.png) 50% no-repeat;
+	}
+	32%{
+		left:160px;
+		bottom:0px;
+		background:url(bunny.png) 50% no-repeat;
+	}
+	34%{
+		left:170px;
+		bottom:0px;
+		background:url(jump.png) 50% no-repeat;
+	}
+	36%{
+		left:180px;
+		bottom:0px;
+		background:url(bunny.png) 50% no-repeat;
+	}
+	38%{
+		left:190px;
+		bottom:0px;
+		background:url(jump.png) 50% no-repeat;
+	}
+	40%{
+		left:200px;
+		bottom:0px;
+		background:url(bunny.png) 50% no-repeat;
+	}
+	42%{
+		left:210px;
+		bottom:0px;
+		background:url(jump.png) 50% no-repeat;
+	}
+	44%{
+		left:220px;
+		bottom:0px;
+		background:url(bunny.png) 50% no-repeat;
+	}
+	46%{
+		left:230px;
+		bottom:0px;
+		background:url(jump.png) 50% no-repeat;
+	}
+	48%{
+		left:240px;
+		bottom:0px;
+		background:url(bunny.png) 50% no-repeat;
+	}
+	50%{
+		left:250px;
+		bottom:0px;
+		background:url(jump.png) 50% no-repeat;
+	}
+	52%{
+		left:260px;
+		bottom:0px;
+		background:url(bunny.png) 50% no-repeat;
+	}
+	54%{
+		left:270px;
+		bottom:0px;
+		background:url(jump.png) 50% no-repeat;
+	}
+	56%{
+		left:280px;
+		bottom:0px;
+		background:url(bunny.png) 50% no-repeat;
+	}
+	
+	58%{
+		left:290px;
+		bottom:0px;
+		background:url(jump.png) 50% no-repeat;
+	}
+	60%{
+		left:300px;
+		bottom:0px;
+		background:url(bunny.png) 50% no-repeat;
+	}
+	62%{
+		left:310px;
+		bottom:0px;
+		background:url(jump.png) 50% no-repeat;
+	}
+	64%{
+		left:320px;
+		bottom:0px;
+		background:url(bunny.png) 50% no-repeat;
+	}
+	66%{
+		left:330px;
+		bottom:0px;
+		background:url(jump.png) 50% no-repeat;
+	}
+	68%{
+		left:340px;
+		bottom:0px;
+		background:url(bunny.png) 50% no-repeat;
+	}
+	
+
+}
